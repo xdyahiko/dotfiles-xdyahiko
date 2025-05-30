@@ -1,0 +1,103 @@
+# This file sources other files in `hyprland` and `custom` folders
+# You wanna add your stuff in file in `custom`
+
+# Defaults
+source=~/.config/hypr/hyprland/env.conf
+source=~/.config/hypr/hyprland/execs.conf
+source=~/.config/hypr/hyprland/general.conf
+source=~/.config/hypr/hyprland/rules.conf
+source=~/.config/hypr/hyprland/colors.conf
+source=~/.config/hypr/hyprland/keybinds.conf
+
+# Custom 
+source=~/.config/hypr/custom/env.conf
+source=~/.config/hypr/custom/execs.conf
+source=~/.config/hypr/custom/general.conf
+source=~/.config/hypr/custom/rules.conf
+source=~/.config/hypr/custom/keybinds.conf
+
+env = LIBVA_DRIVER_NAME,nvidia
+env = GBM_BACKEND,nvidia-drm
+env = __GLX_VENDOR_LIBRARY_NAME,nvidia
+
+
+bind = SUPER, U, exec, foot -T FloatingCava -e cava
+bind = SUPER, R, exec, rofi -show drun
+bind = SUPER, T, exec, true
+bind = SUPER, T, exec, foot -T FloatingFoot
+
+
+
+exec-once = waybar &
+exec-once = swww init
+exec-once = dunst
+
+
+#SCREEN TIME OUT
+
+
+# FOOT BLUR
+
+decoration {
+    blur {
+        enabled = true
+        size = 8
+        passes = 3
+        new_optimizations = true
+    }
+}
+
+windowrule = opacity 0.8 0.8, class:^(foot)$
+
+
+
+
+
+
+
+
+
+
+# SPOTIFY, CAVA AND FOOT AUTO STARTUP
+
+# Spotify on workspace 2
+exec-once = bash -c 'sleep 1 && hyprctl dispatch workspace 2 && spotify'
+
+# Cava on workspace 2
+exec-once = bash -c 'sleep 1 && hyprctl dispatch workspace 2 && foot -T FloatingCava -e cava'
+
+# Back to workspace 1 and open floating Foot
+exec-once = bash -c 'sleep 11 && hyprctl dispatch workspace 1 && foot -T FloatingFoot'
+
+
+# FOOT
+
+# Float the window
+windowrulev2 = float, title:^(FloatingFoot)$
+# Resize the window
+windowrulev2 = size 700 700, title:^(FloatingFoot)$
+# Center it on screen
+windowrulev2 = move 20 60, title:^(FloatingFoot)$
+
+# CAVA
+
+windowrulev2 = float, title:^(FloatingCava)$
+windowrulev2 = size 600 400, title:^(FloatingCava)$
+windowrulev2 = move 1255 100, title:^(FloatingCava)$
+
+# SPOTIFY
+
+windowrulev2 = float, class:^(Spotify)$
+windowrulev2 = size 900 900, class:^(spotify)$
+windowrulev2 = workspace 2, class:^(spotify)$
+
+
+
+
+
+
+# FLOATING NVIM
+
+windowrulev2 = float, title:^(FloatingNvim)$
+windowrulev2 = size 900 1000, title:^(FloatingNvim)$
+windowrulev2 = move 200 140, title:^(FloatingNvim)$
