@@ -1,0 +1,14 @@
+[general]
+bars = 40
+
+[input]
+method = pulse
+
+[output]
+method = ncurses
+
+[color]
+#gradient = 1
+#gradient_count = 2
+#gradient_color_1 = '#C522FF'
+#gradient_color_2 = '#1A6CFF'
