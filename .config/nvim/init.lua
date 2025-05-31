@@ -9,12 +9,31 @@ vim.print = _G.dd
 
 require("config.lazy")
 
-vim.cmd.colorscheme("catppuccin")
-
 return {
-	"zbirenbaum/copilot.lua",
-	opts = {
-		suggestion = { enabled = false },
-		panel = { enabled = false },
+	{
+		"catppuccin/nvim",
+		name = "catppuccin",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			require("catppuccin").setup({
+				flavour = "mocha",
+				transparent_background = true,
+				integrations = {
+					treesitter = true,
+					telescope = true,
+					-- add other integrations as needed
+				},
+			})
+			vim.opt.termguicolors = true
+			vim.cmd.colorscheme("catppuccin")
+		end,
+	},
+	{
+		"zbirenbaum/copilot.lua",
+		opts = {
+			suggestion = { enabled = false },
+			panel = { enabled = false },
+		},
 	},
 }
