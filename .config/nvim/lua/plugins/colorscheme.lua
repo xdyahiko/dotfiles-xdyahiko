@@ -6,17 +6,17 @@ return {
 		priority = 1000, -- Load before other plugins
 		config = function()
 			require("catppuccin").setup({
-				flavour = "mocha", -- or "latte", "frappe", "macchiato"
+				flavour = "mocha",
 				transparent_background = true,
 				integrations = {
 					treesitter = true,
 					telescope = true,
-					-- add other integrations as needed
+					-- Add other integrations as needed
 				},
 			})
 			vim.opt.termguicolors = true
 			vim.cmd.colorscheme("catppuccin")
 		end,
 	},
-	{ "craftzdog/solarized-osaka.nvim", enabled = true }, -- DISABLE solarized-osaka
+	-- { "craftzdog/solarized-osaka.nvim", enabled = false }, -- Changed to FALSE to disable
 }

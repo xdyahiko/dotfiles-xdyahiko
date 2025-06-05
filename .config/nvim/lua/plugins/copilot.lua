@@ -1,1 +1,9 @@
-return { "zbirenbaum/copilot.lua", enabled = false }
+return {
+	{
+		"zbirenbaum/copilot.lua",
+		opts = {
+			suggestion = { enabled = false },
+			panel = { enabled = false },
+		},
+	},
+}
