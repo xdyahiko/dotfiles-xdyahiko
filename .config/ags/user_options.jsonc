@@ -18,9 +18,9 @@
     "sidebar": {
         "pages": {
             "apis": {
-                "defaultPage": "booru"
+                "defaultPage": "gemini"
             },
-            "defaultPage": "tools"
+            "defaultPage": "apis"
         },
         "calendar": {
             "expandByDefault": true

@@ -27,6 +27,7 @@ bind = SUPER, T, exec, true
 bind = SUPER, T, exec, foot -T FloatingFoot
 
 
+
 exec-once = waybar &
 exec-once = swww init
 exec-once = dunst
@@ -37,16 +38,19 @@ exec-once = dunst
 
 # FOOT BLUR
 
-  decoration {
+decoration {
     blur {
-     enabled = true
-    size = 8
-    passes = 3
-    new_optimizations = true
+        enabled = true
+        size = 8
+        passes = 3
+        new_optimizations = true
     }
-  }
+}
 
- windowrule = opacity 0.8 0.8, class:^(foot)$
+windowrule = opacity 0.8 0.8, class:^(foot)$
+
+
+
 
 
 
@@ -104,9 +108,3 @@ windowrulev2 = float,title:floating-foot-center
 windowrulev2 = size 700 800,title:floating-foot-center
 windowrulev2 = center,title:floating-foot-center
 
-
-
-
-general {
-  border_size = 0
-}
