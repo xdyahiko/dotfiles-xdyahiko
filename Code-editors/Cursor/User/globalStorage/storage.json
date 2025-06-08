@@ -1,0 +1,73 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.macMachineId": "ebebb9e42d8cf8b32ebdadf84e4265341ebb62ae03393379c238ed4457070b42",
+    "telemetry.machineId": "5785d4e42fdef0f5e837763df9526b622009e11e71f40d2703b9d181769027df",
+    "telemetry.devDeviceId": "8d514eae-2f52-4cfc-ae4b-b7738c76eea5",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/yahiko/Sigma%20WDC"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1749342327596"
+            }
+        ]
+    },
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/yahiko/Sigma%20WDC": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1749342327596": "__default__profile__"
+        }
+    },
+    "windowControlHeight": 30,
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e2e",
+    "windowSplash": {
+        "zoomLevel": 1,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cdd6f4",
+            "background": "#1e1e2e",
+            "editorBackground": "#1e1e2e",
+            "titleBarBackground": "#11111b",
+            "titleBarBorder": "rgba(0, 0, 0, 0)",
+            "activityBarBackground": "#11111b",
+            "activityBarBorder": "rgba(0, 0, 0, 0)",
+            "sideBarBackground": "#181825",
+            "sideBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarBackground": "#11111b",
+            "statusBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarNoFolderBackground": "#11111b",
+            "windowBorder": "rgba(0, 0, 0, 0)"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 30,
+            "activityBarWidth": 0,
+            "sideBarWidth": 300,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/yahiko/Sigma%20WDC",
+            "backupPath": "/home/yahiko/.config/Cursor/Backups/df0d57b70391ea6571ae2bdefbb51d6b",
+            "uiState": {
+                "mode": 1,
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1080,
+                "zoomLevel": 0
+            }
+        },
+        "openedWindows": []
+    }
+}
