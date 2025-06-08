@@ -1,0 +1,15 @@
+[
+    {
+        "key": "alt+q",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    }
+//   Example:
+//   {
+//     "key": "ctrl+k ctrl+d",
+//     "command": "editor.action.addSelectionToNextFindMatch"
+//   }
+]

@@ -1,0 +1,93 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "ebebb9e42d8cf8b32ebdadf84e4265341ebb62ae03393379c238ed4457070b42",
+    "telemetry.devDeviceId": "8d514eae-2f52-4cfc-ae4b-b7738c76eea5",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/yahiko/Sigma%20WDC"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 42,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/yahiko/C%2B%2B%20files": "__default__profile__",
+            "file:///home/yahiko/Sigma%20WDC": "__default__profile__",
+            "file:///home/yahiko": "__default__profile__",
+            "file:///home/yahiko/Python%20files": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e2e",
+    "windowSplash": {
+        "zoomLevel": 1,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cdd6f4",
+            "background": "#1e1e2e",
+            "editorBackground": "#1e1e2e",
+            "titleBarBackground": "#11111b",
+            "titleBarBorder": "rgba(0, 0, 0, 0)",
+            "activityBarBackground": "#11111b",
+            "activityBarBorder": "rgba(0, 0, 0, 0)",
+            "sideBarBackground": "#181825",
+            "sideBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarBackground": "#11111b",
+            "statusBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarNoFolderBackground": "#11111b",
+            "windowBorder": "rgba(0, 0, 0, 0)"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 237,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/yahiko/Sigma%20WDC",
+            "backupPath": "/home/yahiko/.config/Code/Backups/df0d57b70391ea6571ae2bdefbb51d6b",
+            "uiState": {
+                "mode": 1,
+                "x": 5,
+                "y": 45,
+                "width": 1910,
+                "height": 1030
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 237,
+            "auxiliaryBarWidth": 379,
+            "workspaces": {
+                "8561a5c4a5e850a881dc10d455519512": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "bc2e3ca0b814c2be70a7948713c25b34": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "52b9c3b7930709d76bb4ec43f3e91b0f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "6ebd3792b4ea3e3dc00d1d3cc5382c76": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}
