@@ -12,6 +12,13 @@ if status is-interactive
 
 end
 
+if status --is-login
+    if test (tty) = "/dev/tty1"
+        exec Hyprland
+    end
+end
+
+
 starship init fish | source
 if test -f ~/.cache/ags/user/generated/terminal/sequences.txt
     cat ~/.cache/ags/user/generated/terminal/sequences.txt
