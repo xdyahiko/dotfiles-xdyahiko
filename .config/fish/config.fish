@@ -33,3 +33,4 @@ alias pamcan=pacman
 
 
 neofetch
+
